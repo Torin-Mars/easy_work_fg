@@ -1,0 +1,42 @@
+
+.my-ul{
+  padding-left: 0;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 0;
+}
+.my-ul>li+li{
+  border-top: 1px solid gray;
+}
+.my-li {
+  list-style: none;
+  padding: 1em;
+}
+.my-panel {
+  padding-left: 0;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 0 0.7em 0.7em 0.7em;
+}
+.my-panel+.my-panel{
+  margin-top: 0.4em;
+}
+.my-panel>span{
+  margin-top: 0.7em;
+  margin-right: 0.7em;
+}
+.my-panel>span:last-of-type{
+  margin-right: 0;
+}
+
+
+.time_re{
+  padding: 0.7em;
+  line-height: 34px;
+}
+.time_re:first-of-type{
+  padding-top: 0;
+}
+.time_re + .time_re{
+  border-top: 1px solid #e2dfda;
+}
